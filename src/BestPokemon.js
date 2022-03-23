@@ -5,10 +5,10 @@ const BestPokemon = (props) => {
   
   return (
     <div>
-      <p>My favorite Pokemon is Squirtle</p>
+      <p>"My favorite Pokemon is Squirtle"</p>
       <ul>
-        {props.abilities.map((item) => {
-          return <li>{item}</li>;
+        {props.abilities.map((ability) => {
+          return <li key={ability}>{ability}</li>;
         })}
       </ul>
     </div>

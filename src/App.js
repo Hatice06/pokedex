@@ -11,14 +11,12 @@ function App() {
   let date = new Date().toLocaleDateString();
   return (
     <div>
-      <Logo appName="Pokedex" />
+      <Logo appName={"Hatice's Pokedex"} />
       <BestPokemon  abilities={abilities} />
       <CaughtPokemon date={date}/>
     </div>
   );
 }
-
-
 
 export default App;
 
