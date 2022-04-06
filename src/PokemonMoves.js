@@ -30,17 +30,3 @@ function PokemonMoves(props) {
 export default PokemonMoves;
 
 
-{
-  /* <div>
-  {pokemonData && (
-    <div>
-      <p>{pokemonData.name}'s moves:</p>
-      <ul>
-        {pokemonData.moves.map((move, index) => {
-          return <li key={index}>{move.move.name}</li>;
-        })}
-      </ul>
-    </div>
-  )}
-</div>; */
-}
