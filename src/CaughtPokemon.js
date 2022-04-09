@@ -28,10 +28,11 @@ const CaughtPokemon = (props) => {
       }
       <input
         type="text"
+        placeholder="Pokemon Name"
         value={pokemonNameInput}
         onChange={handleInputChange}
       ></input>
-      <button onClick={catchPokemon}>Click me!</button>
+      <button onClick={catchPokemon}>Catch Pokemon</button>
     </div>
   );
 };

@@ -10,7 +10,7 @@ function PokemonCity() {
 
   return (
     <div>
-      <input type="text" value={city} onChange={updateCity} />
+      <input type="text" placeholder="City Name" value={city} onChange={updateCity} />
       <p>Welcome to the city of {city}</p>
     </div>
   );
